@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CB3C2C362020B2A900E5279D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C2C352020B2A900E5279D /* AppDelegate.swift */; };
-		CB3C2C382020B2AA00E5279D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C2C372020B2AA00E5279D /* ViewController.swift */; };
+		CB3C2C382020B2AA00E5279D /* ToDolistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C2C372020B2AA00E5279D /* ToDolistViewController.swift */; };
 		CB3C2C3B2020B2AA00E5279D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3C2C392020B2AA00E5279D /* Main.storyboard */; };
 		CB3C2C3E2020B2AA00E5279D /* hangug.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB3C2C3C2020B2AA00E5279D /* hangug.xcdatamodeld */; };
 		CB3C2C402020B2AA00E5279D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3C2C3F2020B2AA00E5279D /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		CB3C2C322020B2A900E5279D /* hangug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hangug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3C2C352020B2A900E5279D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB3C2C372020B2AA00E5279D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB3C2C372020B2AA00E5279D /* ToDolistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDolistViewController.swift; sourceTree = "<group>"; };
 		CB3C2C3A2020B2AA00E5279D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB3C2C3D2020B2AA00E5279D /* hangug.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hangug.xcdatamodel; sourceTree = "<group>"; };
 		CB3C2C3F2020B2AA00E5279D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				CB3C2C352020B2A900E5279D /* AppDelegate.swift */,
-				CB3C2C372020B2AA00E5279D /* ViewController.swift */,
+				CB3C2C372020B2AA00E5279D /* ToDolistViewController.swift */,
 				CB3C2C392020B2AA00E5279D /* Main.storyboard */,
 				CB3C2C3F2020B2AA00E5279D /* Assets.xcassets */,
 				CB3C2C412020B2AA00E5279D /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3C2C3E2020B2AA00E5279D /* hangug.xcdatamodeld in Sources */,
-				CB3C2C382020B2AA00E5279D /* ViewController.swift in Sources */,
+				CB3C2C382020B2AA00E5279D /* ToDolistViewController.swift in Sources */,
 				CB3C2C362020B2A900E5279D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N258U7NWGS;
 				INFOPLIST_FILE = hangug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aungthuphyo.hangug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N258U7NWGS;
 				INFOPLIST_FILE = hangug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aungthuphyo.hangug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
